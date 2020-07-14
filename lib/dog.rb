@@ -20,6 +20,5 @@ class Dog
   def self.print_all
     puts names = @@all.map { |i| self.name }
   end
-  binding.pry
 
 end
